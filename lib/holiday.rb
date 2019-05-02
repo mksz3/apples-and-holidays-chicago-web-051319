@@ -53,10 +53,9 @@ def all_supplies_in_holidays(holiday_hash)
     |season|
     puts season.each {
       |key|
-      puts
+      puts key
     }
   }
-
 end
 
 def all_holidays_with_bbq(holiday_hash)
