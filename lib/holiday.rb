@@ -71,6 +71,7 @@ def all_holidays_with_bbq(holiday_hash)
         selected << holidays
     }
   }
+  selected
 end
 
 
