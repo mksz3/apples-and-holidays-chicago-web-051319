@@ -60,7 +60,7 @@ def all_supplies_in_holidays(holiday_hash)
       #   supplyArr << item.to_s
       # }
       # supplies = supplyArr.join(", ")
-      puts "#{holiday.to_s.split("_").join(" ").capitalize}: #{supply.join(',')}"
+      puts "#{holiday.to_s.split("_").capitalize.join(' ')}: #{supply.join(',')}"
     }
   }
 end
