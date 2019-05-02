@@ -67,7 +67,8 @@ def all_holidays_with_bbq(holiday_hash)
     |season|
     season.select {
       |holidays, supply|
-      selected << supply.include?('BBQ')
+      if supply.include?('BBQ')
+        selected << holidays
     }
   }
 end
